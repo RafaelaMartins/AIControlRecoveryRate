@@ -1,6 +1,6 @@
 from stable_baselines3 import PPO
 
-from Reinforcement_Environment import RecuperadoraEnv
+from reinforcement_environment import RecuperadoraEnv
 env = RecuperadoraEnv()
 
 model = PPO("MlpPolicy", env, verbose=1)
